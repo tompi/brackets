@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace brackets
 {
-    public class BracketsValidator
+    public static class BracketsValidator
     {
         public static bool IsValid(string codeBlock)
         {
@@ -26,7 +26,7 @@ namespace brackets
             return usedOpeners.Count == 0;
         }
 
-        private static readonly List<char> Openers = new List<char> {'(', '{', '['};
-        private static readonly List<char> Closers = new List<char> {')', '}', ']'};
+        private static readonly List<char> Openers = new() {'(', '{', '['};
+        private static readonly List<char> Closers = new() {')', '}', ']'};
     }
 }
