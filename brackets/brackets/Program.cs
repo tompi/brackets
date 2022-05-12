@@ -24,10 +24,10 @@ Console.WriteLine("We thought of everything, right?");
 
 void ShouldBeGood(string codeBlock)
 {
-    if (!BracketsValidatorFunctional.IsValid(codeBlock)) throw new Exception("Expected valid...");
+    if (!BracketsValidator.IsValid(codeBlock)) throw new Exception("Expected valid...");
 }
 
 void ShouldBeBad(string codeBlock)
 {
-    if (BracketsValidatorFunctional.IsValid(codeBlock)) throw new Exception("Expected invalid...");
+    if (BracketsValidator.IsValid(codeBlock)) throw new Exception("Expected invalid...");
 }

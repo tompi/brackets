@@ -24,9 +24,9 @@ namespace brackets
                 .Replace("{}", "")
                 .Replace("[]", "");
             // If we didnt manage to strip anything, the code is not valid
-            if (codeAfterRemovingInnerScopes.Length == length) return false;
-            // Keep stripping inner scopes
-            return HasValidSubScopesOrEmpty(codeAfterRemovingInnerScopes);
+            return codeAfterRemovingInnerScopes.Length != length && 
+                   // Check the rest of the string
+                   HasValidSubScopesOrEmpty(codeAfterRemovingInnerScopes);
         }
 
         private static readonly List<char> Openers = new() {'(', '{', '['};

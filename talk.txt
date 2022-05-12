@@ -1,0 +1,15 @@
+Functional C#
+
+Simon Painter
+https://no.wikipedia.org/wiki/Haskell_Curry
+
+Functional definition:
+Not ONE thing, but a cluster of properties.
+
+* Functions rather than statements(if, for etc)
+* Immutability: Dont change state, make copies
+* Higher order functions(functions that returns functions)
+* Pure functions (referential transparency: same input always equals same output)
+
+Programming test for Laerdal candidates
+
