@@ -1,6 +1,9 @@
 Functional C#
 
-Simon Painter
+https://ndcporto.com/agenda/functional-programming-with-c-0ye0/0jf13emda2r
+
+https://ndcporto.com/agenda/mixing-paradigms-using-the-latest-c-language-features-0zge/05w3mgen67l
+
 https://no.wikipedia.org/wiki/Haskell_Curry
 
 Functional definition:
